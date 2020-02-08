@@ -1,0 +1,84 @@
+<html>
+  <head>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+       <link href="hotelproject.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<div id="logo"></div>
+<img src="https://media.giphy.com/media/tIHktzgRi8yjIplFVI/giphy.gif" id="gif">
+<div id = "hotelname">Christmas Cove Inn</div>
+
+<div id="room1">
+    <input type="text" id="person" onkeypress="add1(event)">
+    <!--<button id="room1button" onclick="addperson()">Check in</button>-->
+    <ul id="list1"></ul>
+    <!--<input type="number" id="removeone" min="1" max="4">
+    <button id="remove1buttom" onclick="removeperson()">Check out</button>-->
+    <button id="clean1" value="On" onclick="cleanone()">Clean Room</button>
+    <!--<button id="bye1" onclick="byeone()">Remove All</button>-->
+</div>
+
+<div id="room2">
+    <input type="text" id="persontwo">
+   <!--<button id="room2button" onclick="addpersontwo()">Check in</button>-->
+    <ul id="list2"></ul>
+    <!--<input type="number" id="removetwo" min="1" max="4">
+    <button id="remove2buttom" onclick="removepersontwo()">Check out</button>-->
+    <button id="clean2" onclick="cleantwo()">Clean Room</button>
+    <!--<button id="bye2" onclick="byetwo()">Remove All</button>-->
+</div>
+
+<div id="room3">
+    <input type="text" id="personthree">
+    <!--<button id="room3button" onclick="addpersonthree()">Check in</button>-->
+    <ul id="list3"></ul>
+    <!--<input type="number" id="removethree" min="1" max="4">
+    <button id="remove3buttom" onclick="removepersonthree()">Check out</button>-->
+    <button id="clean3" onclick="cleanthree()">Clean Room</button>
+    <!--<button id="bye3" onclick="byethree()">Remove All</button>-->
+</div>
+
+<div id="room4">
+    <input type="text" id="personfour">
+   <!-- <button id="room4button" onclick="addpersonfour()">Check in</button>-->
+    <ul id="list4"></ul>    
+    <!--<input type="number" id="removefour" min="1" max="4">
+    <button id="remove4buttom" onclick="removepersonfour()">Check out</button>-->
+    <button id="clean4" onclick="cleanfour()">Clean Room</button>
+    <!--<button id="bye4" onclick="byefour()">Remove All</button>-->
+</div>
+
+<div id ="room5">
+    <input type="text" id="personfive">
+    <!--<button id="room5button" onclick="addpersonfive()">Check in</button>-->
+    <ul id="list5"></ul>  
+    <!--<input type="number" id="removefive" min="1" max="4">
+    <button id="remove5buttom" onclick="removepersonfive()">Check out</button>-->
+    <button id="clean5" onclick="cleanfive()">Clean Room</button>  
+    <!--<button id="bye5" onclick="byefive()">Remove All</button>-->
+</div>
+
+<div id ="room6">
+    <input type="text" id="personsix">
+    <!--<button id="room6button" onclick="addpersonsix()">Check in</button>-->
+    <ul id="list6"></ul>     
+    <!--<input type="number" id="removesix" min="1" max="4">
+    <button id="remove6buttom" onclick="removepersonsix()">Check out</button>-->
+    <button id="clean6" onclick="cleansix()">Clean Room</button>
+    <!--<button id="bye6" onclick="byesix()">Remove All</button>-->
+</div>
+<p id="allguests">
+
+</p>
+
+
+<div id="guest">
+    <button id="page2" onclick="guestreport()">Guest Report</button>
+</div>
+
+
+    <script src = "raquelNew.js"></script>
+  </body>
+</html>
+<!--Set value of ul id to 0 w/ function
+for loop that kicks each person out individually-->

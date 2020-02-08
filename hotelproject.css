@@ -1,0 +1,362 @@
+body {
+    background-image: url("christmasinn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #gif {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+} */
+#logo {
+  background-image: url("logo.jpg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+}
+#hotelname {
+    font-family: 'Great Vibes', cursive;
+    font-size: 75px;
+    position: absolute;
+    left: 400px;
+    color:#b30000;
+    top: 10px;
+}
+/*#room1 {
+    border-color: black;
+    width: 25px;
+    height: 50px;
+    left: 10;
+    top: 15;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    background-color: rosybrown;
+    box-shadow: 0 3px darkslategrey;
+    cursor: pointer
+}*/
+#room1 {
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 27%;
+    left: 8%;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    background-image: url("grinch2.jpg");
+    border-width: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+#room1button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip;
+    border-color: black;
+    position: absolute;
+    top: 12.9%;
+    
+}
+#person {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+
+#room2 {
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 27%;
+    left: 38%;
+    position: absolute;
+    background-image: url("charliebrown.jpg");
+    border-width:5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+#room2button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip; 
+    border-color: black;
+    position: absolute;
+    top: 12.8%;
+}
+#persontwo {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+#room3 {
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 27%;
+    left: 68%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: absolute;
+    /*background-image: url("mickey.jpg");*/
+    background-image: url("elf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow-y: scroll;
+}
+#room3button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip; 
+    border-color: black;
+    position: absolute;
+    top: 12.9%;    
+}
+#personthree {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+#room4 {
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 62%;
+    left: 8%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: absolute;
+    background-image: url("kevin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow-y: scroll;
+}
+#room4button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip; 
+    border-color: black;
+    position: absolute;
+    top: 12.9%;
+}
+#personfour {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+#room5 {
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 62%;
+    left: 38%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: absolute;
+    background-image: url("sponge2.jpg");
+    position: absolute;
+    overflow-y: scroll;
+}
+#room5button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip; 
+    border-color: black;
+    position: absolute;
+    top: 12.9%;
+}
+#personfive {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+#room6 {
+    padding: 30px;
+    width: 250px;
+    height: 175px;
+    top: 62%;
+    left: 68%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: absolute;
+    background-image: url("rudolph.jpg");
+    background-repeat: no-repeat;
+    background-size: 310px 235px;
+    position: absolute;  
+    overflow-y: scroll; 
+}
+#room6button {
+    font-family: 'Ibarra Real Nova', serif;
+    width: 96px;
+    height: 30.2px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: papayawhip; 
+    border-color: black;
+    position: absolute;
+    top: 12.9%;
+}
+#personsix {
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+    width: 150px;
+}
+#ul {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 12px;
+    position: absolute; 
+    z-index: 6;
+}
+#removeone {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove1buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #removetwo {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove2buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #removethree {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove3buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #removefour {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove4buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #removefive {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove5buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #removesix {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #remove6buttom {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean1 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean2 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean3 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean4 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean5 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #clean6 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye1 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye2 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye3 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye4 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye5 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #bye6 {
+    font-family:'Ibarra Real Nova', serif;
+    background-color: papayawhip;
+  }
+  #allguests {
+    background-color: papayawhip;
+    border-color: black;
+    width: 23%;
+    text-align: center;
+  }
+ #bigbiglist {
+  font-family:'Ibarra Real Nova', serif;
+  color: black;
+  padding: 2%;
+}
+#page2 {
+  font-family:'Ibarra Real Nova', serif;
+  background-color: papayawhip;
+}
